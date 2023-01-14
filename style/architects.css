@@ -1,0 +1,90 @@
+.banner{
+    background-color: rgb(244, 228, 222);
+    height: 1322px;
+    width: 1920px;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.header-title{
+    font-size: 40px;
+    font-weight: 700px;
+    font-family: Work-Sans;
+    color:#131313;
+    margin-top: 0;
+}
+.header-option{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #424242;
+
+}
+.first-section{
+    text-align: center;
+}
+.first-section-header{
+    font-size: 64px;
+    font-weight:700px;
+    font-family:Work-Sans ;
+    color: #131313;
+    
+    margin-left: 0;
+    margin-right: 0;
+   
+}
+/*  padding: 205px  529px 892px  529px; */
+.first-section-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+   
+    
+}
+.button{
+    font-size: 20px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    background-color: darkorange;
+    padding: 20px;
+    
+}
+.banner-image{
+    width: 1440px;
+    height: 700px;
+  
+   position: absolute;
+  margin-top: 10px;
+  padding: 45px 240px 45px 240px;
+}
+.second-section{
+    display: flex;
+   padding-left: 300px;
+   gap: 76px;
+}
+
+ .second-section-img{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+}
+.second-section-content{
+   padding-top: 150px;
+ 
+}
+.sec-section-title{
+ font-size: 45px;
+ font-weight: 500px;
+ font-family: Work Sans;
+ 
+}
+.sec-section-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #727272;
+   
+}

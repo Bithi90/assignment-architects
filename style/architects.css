@@ -45,6 +45,7 @@
    
     
 }
+
 .button{
     font-size: 20px;
     font-weight: 600px;
@@ -124,8 +125,7 @@ background-color: #FFFFFF;
 .third-img{
     width: 1059px;
     height: 800px;
-  
-   position: absolute;
+    position: absolute;
    left: 880px;
    top: 2174px;
    right: 240px;
@@ -245,13 +245,6 @@ color: #131313;
     line-height:26px ;
     color:#424242;
 }
-/* .sponsors-section{
-    background-color: #FFFFFF;
-    height: 100px;
-    width: 1440px;
-    
-    
-} */
 .sponsors-content{
     display: flex;
     justify-content: space-between;
@@ -282,4 +275,100 @@ color: #131313;
     left: 650px;
     padding-top: 40px;
 }
+@media only screen and (max-width:576px) {
+    .banner{
+        width: 100%;
+    }
+    .header,.header-option{
+        flex-direction: column;
+    }
+    .first-section,.first-section-header,.first-section-description,.button{
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+        position: absolute;
+        margin-top: 10px;
+        height: 300px;
+        padding-left: 0;
+        padding-right: 2;
+    }
+    .section-main{
+        width: 100%;
+    }
+    .second-section{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .second-section-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .second-section-content{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .sec-section-title{
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .third-img{
+        display: none;
+       
+    }
+    .third-button{
+        display: none;
+    }
+    .third-section{
+       padding-left: 0;
+        flex-direction: column;
+       
+    }
+  .section-four{
+    padding-left: 0;
+    top: 3434px;
+    text-align: left;
+    background: none;
+  }
+.title-four{
+    margin-left: 0;
+}
+ .description-four{
+    margin-left: 0;
+ }
+ .section-five{
+    padding-left: 0;
+    padding-right: 0;
+ }
+ .section-five-content{
+    flex-direction: column;
+    gap: 10px;
+}
+.content-six{
+    text-align:left;
+    margin-left: 0px;
+    margin-top: 0;
+}
+.sponsors-content{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.sponsors-img{
+    margin-top: 15px;
+}
+.footer{
+    background-color: rgb(251, 198, 177);
+    background-size: 100px*20px;
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    padding-left: 0;
    
+}
+}
